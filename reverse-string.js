@@ -1,1 +1,5 @@
-export function reverse() {}
+export function reverse(string) {
+    return string.split("").reverse().join("");
+     
+}
+
